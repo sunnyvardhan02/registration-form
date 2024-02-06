@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<body>
+    <style>
+        .main{
+    padding: 20px;
+    font-family: Arial;
+    box-shadow: 5px  5px 7px 5px #8888;
+}
+
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial;
+    background-color: aqua;
+
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #dd08dd;
+
+}
+
+input[type=submit]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #df14df;
+    border:none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+} 
+.body {
+        background-color: rgb(176, 225, 41);
+}
+
+
+.container{
+ 
+ margin-left: 21%;
+
+}
+
+.class {
+      background-color: #df14df;
+
+}
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col-mod-3">
+                
+            </div>
+            <div class="col-md-6 main">
+                <form action="/Register" method="POST">
+                    <h2> Registration Form</h2>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required/>
+                    <br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email ID" required/>
+                    <br>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required/>
+                    <br>
+                    <input type="text" class="box" id="gender" name="gender" placeholder="Gender" required/>
+                    <br>
+                    <input type="text" class="box" id="password" name="password" placeholder="Password" required/>
+                    <br>
+                    
+                    <button type="submit" class="btn btn-primary btn-black mb-4">
+                        Register
+                    </button>
+
+                    </form>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script> 
+</body>
+
+</html>
